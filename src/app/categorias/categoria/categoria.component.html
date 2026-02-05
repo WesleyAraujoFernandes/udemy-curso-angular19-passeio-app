@@ -7,7 +7,7 @@
       <label class="block text-gray-600 font-medium mb-2">Nome</label>
       <input type="text" name="nome" id="nome" formControlName="nome" placeholder="Ex: Restaurantes, Praias, Shopping"
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring-blue-400" required>
-      <span class="text-red-500 text-sm">
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('nome')">
         Campo obrigatório
       </span>
     </div>
@@ -22,7 +22,7 @@
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring focus:ring-blue-400"
         required>
       </textarea>
-      <span class="text-red-500 text-sm">
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('descricao')">
         Campo obrigatório
       </span>
     </div>

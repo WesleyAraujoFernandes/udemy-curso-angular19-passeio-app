@@ -12,13 +12,20 @@ export class CategoriaComponent {
 
   constructor() {
     this.camposForm = new FormGroup({
-      nome: new FormControl('', Validators.required),
+      nome: new FormControl('', [Validators.required, Validators.maxLength(50)]),
       descricao: new FormControl('', Validators.required)
     })
   }
 
   salvar() {
-    console.log('valores digitados:', this.camposForm.value)
-    console.log('Está válido?', this.camposForm.valid)
+    this.camposForm.markAllAsTouched();
+    if (this.camposForm.valid) {
+      console.log('valores digitados: ', this.camposForm.value)
+    }
+  }
+
+  isCampoInvalido(nomeCampo: string): boolean {
+    const campo = this.camposForm.get(nomeCampo);
+    return (campo?.invalid && campo?.touched) && campo?.errors?.['required']
   }
 }
