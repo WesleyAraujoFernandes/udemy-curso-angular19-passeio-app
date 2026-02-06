@@ -20,5 +20,63 @@
       "nome": "teste",
       "descricao": "teste"
     }
+  ],
+  "lugares": [
+    {
+      "id": "931d",
+      "nome": "Praia do Zé",
+      "categoria": "Praias",
+      "localizacao": "Rio de Janeiro",
+      "urlFoto": "foto",
+      "avaliacao": "4"
+    },
+    {
+      "id": "ec8b",
+      "nome": "Praia do Iosef",
+      "categoria": "Praias",
+      "localizacao": "Rio de Janeiro",
+      "urlFoto": "foto",
+      "avaliacao": "5"
+    },
+    {
+      "id": "4c08",
+      "nome": null,
+      "categoria": null,
+      "localizacao": null,
+      "urlFoto": null,
+      "avaliacao": null
+    },
+    {
+      "id": "1dab",
+      "nome": "",
+      "categoria": "",
+      "localizacao": "",
+      "urlFoto": "",
+      "avaliacao": ""
+    },
+    {
+      "id": "12ea",
+      "nome": null,
+      "categoria": null,
+      "localizacao": null,
+      "urlFoto": null,
+      "avaliacao": null
+    },
+    {
+      "id": "8270",
+      "nome": null,
+      "categoria": null,
+      "localizacao": null,
+      "urlFoto": null,
+      "avaliacao": null
+    },
+    {
+      "id": "7867",
+      "nome": "José teste atualizado",
+      "categoria": "Shoppings",
+      "localizacao": "Rio de Janeiro",
+      "urlFoto": "teste",
+      "avaliacao": "5"
+    }
   ]
 }
