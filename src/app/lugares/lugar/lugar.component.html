@@ -1,8 +1,42 @@
 <div class="p-6 max-w-lg mx-auto bg-white shadow-lg rounded-lg mt-6">
-  <h2 class="text-2x1 font-semibold text-gray-700 mb-2">Nova Categoria</h2>
+  <h2 class="text-2x1 font-semibold text-gray-700 mb-2">Novo Lugar</h2>
   <hr />
-  <form id="lugarForm">
-
+  <form id="lugarForm" [formGroup]="camposForm" (ngSubmit)="salvar()">
+    <!-- campo nome -->
+    <div class="mb-4">
+      <label for="nome" class="block text-gray-600 font-medium mb-2">Nome</label>
+      <input type="text" name="nome" id="nome" formControlName="nome"
+        placeholder="Ex: Brasília Shopping, Água Mineral, Zoológico, etc."
+        class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring-blue-400" required>
+      <span class="text-red-500 text-sm">
+        Campo obrigatório
+      </span>
+    </div>
+    <!-- campo categoria -->
+    <div class="mb-4">
+      <label for="categoria" class="block text-gray-600 font-medium mb-2">Categoria</label>
+    </div>
+    <!-- campo localização -->
+    <div class="mb-4">
+      <label for="localizacao" class="block text-gray-600 font-medium mb-2">Localização</label>
+      <input type="text" name="localizacao" id="localizacao" formControlName="localizacao"
+        placeholder="Ex: São Paulo, Brasília, Rio de Janeiro, etc."
+        class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring-blue-400" required>
+      <span class="text-red-500 text-sm">
+        Campo obrigatório
+      </span>
+    </div>
+    <!-- campo URL da foto -->
+    <div class="mb-4">
+      <label for="urlFoto" class="block text-gray-600 font-medium mb-2">URL da foto</label>
+      <input type="text" name="urlFoto" id="urlFoto" formControlName="urlFoto"
+        placeholder="Ex:. http://exemplo.com/foto.jpg"
+        class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring-blue-400" required>
+    </div>
+    <!-- campo categoria -->
+    <div class="mb-4">
+      <label for="categoria" class="block text-gray-600 font-medium mb-2">Avaliação</label>
+    </div>
   </form>
   <button type="submit" class="w-full bg-blue-600 text-white font-semibold p-3 rounded shadow hover:bg-blue-700">
     Cadastrar Lugar
