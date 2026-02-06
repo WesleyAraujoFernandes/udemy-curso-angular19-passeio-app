@@ -9,6 +9,16 @@
       "id": "e600",
       "nome": "Praias",
       "descricao": "Praias para visitar"
+    },
+    {
+      "id": "955e",
+      "nome": "Restaurantes",
+      "descricao": "Lugares para comer bem"
+    },
+    {
+      "id": "d98a",
+      "nome": "teste",
+      "descricao": "teste"
     }
   ]
 }
