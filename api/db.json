@@ -28,30 +28,6 @@
   ],
   "lugares": [
     {
-      "id": "931d",
-      "nome": "Praia do Zé",
-      "categoria": "Praias",
-      "localizacao": "Rio de Janeiro",
-      "urlFoto": "foto",
-      "avaliacao": "4"
-    },
-    {
-      "id": "ec8b",
-      "nome": "Praia do Iosef",
-      "categoria": "Praias",
-      "localizacao": "Rio de Janeiro",
-      "urlFoto": "foto",
-      "avaliacao": "5"
-    },
-    {
-      "id": "7867",
-      "nome": "José teste atualizado",
-      "categoria": "Shoppings",
-      "localizacao": "Rio de Janeiro",
-      "urlFoto": "teste",
-      "avaliacao": "5"
-    },
-    {
       "id": "7f65",
       "nome": "Praia do espelho",
       "categoria": "Praias",
@@ -65,6 +41,14 @@
       "categoria": "Parques",
       "localizacao": "São Paulo",
       "urlFoto": "https://images.adsttc.com/media/images/56bd/c6e2/e58e/cea3/6900/00be/medium_jpg/Ibira.jpg?1455277790",
+      "avaliacao": "4"
+    },
+    {
+      "id": "2e9e",
+      "nome": "Parque da cidade",
+      "categoria": "Parques",
+      "localizacao": "Brasília",
+      "urlFoto": "https://viajocomfilhos.com.br/wp-content/uploads/2014/07/parque-da-cidade-brasilia.jpg",
       "avaliacao": "4"
     }
   ]

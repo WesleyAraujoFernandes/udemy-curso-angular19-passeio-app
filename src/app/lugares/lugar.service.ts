@@ -17,6 +17,6 @@ export class LugarService {
   }
 
   obterTodos(): Observable<Lugar[]> {
-    return this.http.get<Lugar[]>(this.urlBase)
+    return this.http.get<Lugar[]>(this.urlBase + '/lugares')
   }
 }
