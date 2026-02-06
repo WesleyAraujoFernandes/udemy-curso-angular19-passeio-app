@@ -19,6 +19,11 @@
       "id": "d98a",
       "nome": "teste",
       "descricao": "teste"
+    },
+    {
+      "id": "de31",
+      "nome": "Parques",
+      "descricao": "Parques para passear com a família"
     }
   ],
   "lugares": [
@@ -39,44 +44,28 @@
       "avaliacao": "5"
     },
     {
-      "id": "4c08",
-      "nome": null,
-      "categoria": null,
-      "localizacao": null,
-      "urlFoto": null,
-      "avaliacao": null
-    },
-    {
-      "id": "1dab",
-      "nome": "",
-      "categoria": "",
-      "localizacao": "",
-      "urlFoto": "",
-      "avaliacao": ""
-    },
-    {
-      "id": "12ea",
-      "nome": null,
-      "categoria": null,
-      "localizacao": null,
-      "urlFoto": null,
-      "avaliacao": null
-    },
-    {
-      "id": "8270",
-      "nome": null,
-      "categoria": null,
-      "localizacao": null,
-      "urlFoto": null,
-      "avaliacao": null
-    },
-    {
       "id": "7867",
       "nome": "José teste atualizado",
       "categoria": "Shoppings",
       "localizacao": "Rio de Janeiro",
       "urlFoto": "teste",
       "avaliacao": "5"
+    },
+    {
+      "id": "7f65",
+      "nome": "Praia do espelho",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://ateondeeupuderir.com/wp-content/uploads/elementor/thumbs/praia-do-espelho-capa-r944cnwt9dw8j38rx0rp2k57nf7xhp6bi68usupe9c.jpg",
+      "avaliacao": "5"
+    },
+    {
+      "id": "4dbf",
+      "nome": "Parque Ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://images.adsttc.com/media/images/56bd/c6e2/e58e/cea3/6900/00be/medium_jpg/Ibira.jpg?1455277790",
+      "avaliacao": "4"
     }
   ]
 }

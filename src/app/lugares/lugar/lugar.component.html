@@ -22,6 +22,9 @@
           {{ cat.nome }}
         </option>
       </select>
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('categoria')">
+        Campo obrigatório
+      </span>
     </div>
     <!-- campo localização -->
     <div class="mb-4">
@@ -39,6 +42,9 @@
       <input type="text" name="urlFoto" id="urlFoto" formControlName="urlFoto"
         placeholder="Ex:. http://exemplo.com/foto.jpg"
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring-blue-400" required>
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('urlFoto')">
+        Campo obrigatório
+      </span>
     </div>
     <!-- campo avaliação -->
     <div class="mb-4">
@@ -52,6 +58,9 @@
         <option [value]="4">4- Muito Bom</option>
         <option [value]="5">5- Excelente</option>
       </select>
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('avaliacao')">
+        Campo obrigatório
+      </span>
     </div>
     <button type="submit" class="w-full bg-blue-600 text-white font-semibold p-3 rounded shadow hover:bg-blue-700">
       Cadastrar Lugar

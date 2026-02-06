@@ -13,7 +13,7 @@ export class CategoriaComponent {
 
   constructor(private service: CategoriaService) {
     this.camposForm = new FormGroup({
-      nome: new FormControl('', [Validators.required, Validators.maxLength(50)]),
+      nome: new FormControl('', [Validators.required]),
       descricao: new FormControl('', Validators.required)
     })
   }
@@ -33,6 +33,6 @@ export class CategoriaComponent {
 
   isCampoInvalido(nomeCampo: string): boolean {
     const campo = this.camposForm.get(nomeCampo);
-    return (campo?.invalid && campo?.touched) && campo?.errors?.['required']
+    return campo?.invalid && campo?.touched && campo?.errors?.['required']
   }
 }
