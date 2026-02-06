@@ -26,4 +26,8 @@ export class GaleriaComponent implements OnInit {
         lugaresResposta => this.lugares = lugaresResposta
       )
   }
+
+  getTotalEstrelas(lugar: Lugar): string {
+    return '&#9733;'.repeat(lugar.avaliacao || 0) + '&#9734;'.repeat(5 - (lugar.avaliacao || 0))
+  }
 }
