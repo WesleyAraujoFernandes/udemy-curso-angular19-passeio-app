@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrl: './landingpage.component.scss'
 })
 export class LandingpageComponent {
-  profile: Profile | undefined;
+  profile: Profile | undefined = { name: "Zezinho", email: "zezinho@gmail.com" };
 
   constructor(private router: Router) {
 
@@ -23,7 +23,7 @@ export class LandingpageComponent {
 
   }
 
-  isLoggedIn() {
+  isLoggedIn(): boolean {
     return !!this.profile;
   }
 }
