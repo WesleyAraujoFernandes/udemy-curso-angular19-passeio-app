@@ -1,0 +1,39 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "id": "e600",
+      "nome": "Praias",
+      "descricao": "Praias para visitar"
+    },
+    {
+      "id": "955e",
+      "nome": "Restaurantes",
+      "descricao": "Lugares para comer bem"
+    },
+    {
+      "id": "d98a",
+      "nome": "teste",
+      "descricao": "teste"
+    },
+    {
+      "id": "de31",
+      "nome": "Parques",
+      "descricao": "Parques para passear com a família"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "7f65",
+      "nome": "Praia do encanto",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://ateondeeupuderir.com/wp-content/uploads/elementor/thumbs/praia-do-espelho-capa-r944cnwt9dw8j38rx0rp2k57nf7xhp6bi68usupe9c.jpg",
+      "avaliacao": "5"
+    }
+  ]
+}
